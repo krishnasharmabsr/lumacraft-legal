@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LumaCraft Legal</title>
+    <style>
+      :root {
+        --bg: #120c02;
+        --panel: #2f2820;
+        --panel-2: #3c342c;
+        --text: #f5ebdc;
+        --muted: #c5b8a4;
+        --accent: #2bd7a5;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: radial-gradient(circle at top, #3a2704 0%, var(--bg) 55%);
+        color: var(--text);
+      }
+      .wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 40px 20px 72px;
+      }
+      .hero {
+        background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 28px;
+        padding: 32px;
+        margin-bottom: 28px;
+      }
+      h1, h2 { margin: 0 0 14px; }
+      p { color: var(--muted); line-height: 1.65; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 18px;
+      }
+      .card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        background: linear-gradient(180deg, var(--panel), var(--panel-2));
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 24px;
+        padding: 24px;
+      }
+      .eyebrow {
+        color: var(--accent);
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+      .footer {
+        margin-top: 28px;
+        font-size: 14px;
+      }
+      a.inline { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <div class="eyebrow">LumaCraft</div>
+        <h1>Legal and Policy Pages</h1>
+        <p>
+          This site hosts the public legal documents for the LumaCraft mobile app,
+          including the privacy policy and terms of service used for Google Play
+          compliance and in-app links.
+        </p>
+      </section>
+
+      <section class="grid">
+        <a class="card" href="privacy.html">
+          <div class="eyebrow">Policy</div>
+          <h2>Privacy Policy</h2>
+          <p>
+            How LumaCraft handles imported media, subscriptions, ads, billing, and
+            device permissions.
+          </p>
+        </a>
+
+        <a class="card" href="terms.html">
+          <div class="eyebrow">Agreement</div>
+          <h2>Terms of Service</h2>
+          <p>
+            The rules for using LumaCraft, including subscriptions, acceptable use,
+            and limitation of liability.
+          </p>
+        </a>
+      </section>
+
+      <p class="footer">
+        For support questions, contact
+        <a class="inline" href="mailto:{{SUPPORT_EMAIL}}">{{SUPPORT_EMAIL}}</a>.
+      </p>
+    </main>
+  </body>
+</html>
