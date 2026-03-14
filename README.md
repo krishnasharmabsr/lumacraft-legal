@@ -8,13 +8,11 @@ Public static site for LumaCraft legal and support pages.
 - `privacy.html`
 - `terms.html`
 
-## Before publishing
+## Current publication values
 
-Replace these placeholders in the HTML files:
-
-- `{{SUPPORT_EMAIL}}`
-- `{{DEVELOPER_NAME}}`
-- `{{EFFECTIVE_DATE}}`
+- Support email: `lumacraftstudio.support@gmail.com`
+- Developer name: `Krishna Kant`
+- Effective date: `March 15, 2026`
 
 ## Suggested GitHub Pages URL
 
