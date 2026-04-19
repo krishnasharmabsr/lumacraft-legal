@@ -78,24 +78,41 @@
 
         <h2>3. Third-party services</h2>
         <p>
-          ZenFlow does not include analytics SDKs, advertising SDKs, or account
-          systems in the current version. The app currently uses the following
-          third-party service:
+          While ZenFlow's core timer and ambient-audio experience does not report
+          personal behavior to our own servers, the app may rely on the following
+          third-party services:
         </p>
         <ul>
           <li>
             Google Fonts, which may request font files from Google servers when
             rendering app typography. These requests may expose standard network
-            information such as IP address and request headers to Google. You can
-            review <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+            information such as IP address and request headers to Google.
+          </li>
+          <li>
+            Google Mobile Ads (AdMob), when advertising is enabled at build time.
+            In ad-enabled builds, the AdMob SDK may process network information,
+            device identifiers, and limited ad-interaction data for ad delivery,
+            measurement, and fraud prevention.
           </li>
         </ul>
+        <p>
+          ZenFlow is designed to be ad-free by default when no AdMob
+          configuration is supplied. In ad-enabled builds, banner ads are hidden
+          during actively running Focus sessions. Interstitial ads are not
+          currently implemented.
+        </p>
+        <p>
+          You can review <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>
+          for more details about Google's services.
+        </p>
 
         <h2>4. Data sharing</h2>
         <p>
           We do not sell, rent, or trade personal information. Because ZenFlow
           does not collect personal data through its own service, we do not share
-          personal data with third parties for advertising or analytics purposes.
+          personal data with third parties through our own backend systems.
+          Information processed by Google services described above is handled
+          directly by those services under their own policies.
         </p>
 
         <h2>5. Children's privacy</h2>
