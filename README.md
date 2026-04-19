@@ -1,28 +1,39 @@
 # LumaCraft Legal Pages
 
-Public static site for LumaCraft legal and support pages.
+Public static site for LumaCraft Studio legal and support pages.
 
-## Files
+## Structure
 
 - `index.html`
 - `privacy.html`
 - `terms.html`
+- `zenflow/index.html`
+- `zenflow/privacy.html`
+- `zenflow/terms.html`
 
-## Current publication values
+## Publication values
 
 - Support email: `lumacraftstudio.support@gmail.com`
-- Developer name: `Krishna Kant`
-- Effective date: `March 15, 2026`
+- Legal / display name: `LumaCraft Studio`
+- ZenFlow effective date: `April 19, 2026`
 
-## Suggested GitHub Pages URL
+## Suggested GitHub Pages URLs
 
 If this repo is published as `lumacraft-legal` under the `krishnasharmabsr` account, the Pages URLs will typically be:
 
-- `https://krishnasharmabsr.github.io/lumacraft-legal/privacy.html`
-- `https://krishnasharmabsr.github.io/lumacraft-legal/terms.html`
+- Legacy video editor privacy policy:
+  `https://krishnasharmabsr.github.io/lumacraft-legal/privacy.html`
+- Legacy video editor terms:
+  `https://krishnasharmabsr.github.io/lumacraft-legal/terms.html`
+- ZenFlow legal home:
+  `https://krishnasharmabsr.github.io/lumacraft-legal/zenflow/`
+- ZenFlow privacy policy:
+  `https://krishnasharmabsr.github.io/lumacraft-legal/zenflow/privacy.html`
+- ZenFlow terms:
+  `https://krishnasharmabsr.github.io/lumacraft-legal/zenflow/terms.html`
 
 ## Notes
 
-- Keep these pages public.
-- The Play Store privacy policy field should point to `privacy.html`.
-- Terms of Service can be linked inside the app and from any support/store website.
+- Keep this repository public.
+- Preserve root-level `privacy.html` and `terms.html` for backward compatibility.
+- New apps should be added as subpaths rather than separate branches.

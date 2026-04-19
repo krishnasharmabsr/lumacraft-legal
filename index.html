@@ -59,6 +59,9 @@
         margin-top: 28px;
         font-size: 14px;
       }
+      .section-title {
+        margin: 28px 0 14px;
+      }
       a.inline { color: var(--accent); }
     </style>
   </head>
@@ -68,19 +71,39 @@
         <div class="eyebrow">LumaCraft</div>
         <h1>Legal and Policy Pages</h1>
         <p>
-          This site hosts the public legal documents for the LumaCraft mobile app,
-          including the privacy policy and terms of service used for Google Play
-          compliance and in-app links.
+          This site hosts the public legal documents for LumaCraft Studio apps,
+          including privacy policies and terms pages used for Google Play
+          compliance, in-app links, and public support references.
         </p>
       </section>
 
+      <h2 class="section-title">Current Apps</h2>
+      <section class="grid">
+        <a class="card" href="zenflow/">
+          <div class="eyebrow">Focus Timer</div>
+          <h2>ZenFlow</h2>
+          <p>
+            Privacy policy and terms for the ZenFlow ambient Pomodoro app.
+          </p>
+        </a>
+
+        <a class="card" href="privacy.html">
+          <div class="eyebrow">Video Editor</div>
+          <h2>LumaCraft</h2>
+          <p>
+            Legacy root-level privacy and terms pages for the LumaCraft video
+            editor app.
+          </p>
+        </a>
+      </section>
+
+      <h2 class="section-title">Legacy Root URLs</h2>
       <section class="grid">
         <a class="card" href="privacy.html">
           <div class="eyebrow">Policy</div>
           <h2>Privacy Policy</h2>
           <p>
-            How LumaCraft handles imported media, subscriptions, ads, billing, and
-            device permissions.
+            Existing public privacy policy URL for the LumaCraft video editor app.
           </p>
         </a>
 
@@ -88,11 +111,15 @@
           <div class="eyebrow">Agreement</div>
           <h2>Terms of Service</h2>
           <p>
-            The rules for using LumaCraft, including subscriptions, acceptable use,
-            and limitation of liability.
+            Existing public terms URL for the LumaCraft video editor app.
           </p>
         </a>
       </section>
+
+      <p class="footer">
+        Root-level `privacy.html` and `terms.html` remain in place for backward
+        compatibility. New apps should use their own subpaths.
+      </p>
 
       <p class="footer">
         For support questions, contact
