@@ -7,15 +7,15 @@ Public static site for LumaCraft Studio legal and support pages.
 - `index.html`
 - `privacy.html`
 - `terms.html`
-- `zenflow/index.html`
-- `zenflow/privacy.html`
-- `zenflow/terms.html`
+- `LumaFocus/index.html`
+- `LumaFocus/privacy.html`
+- `LumaFocus/terms.html`
 
 ## Publication values
 
 - Support email: `lumacraftstudio.support@gmail.com`
 - Legal / display name: `LumaCraft Studio`
-- ZenFlow effective date: `April 19, 2026`
+- LumaFocus effective date: `April 19, 2026`
 
 ## Suggested GitHub Pages URLs
 
@@ -25,12 +25,12 @@ If this repo is published as `lumacraft-legal` under the `krishnasharmabsr` acco
   `https://krishnasharmabsr.github.io/lumacraft-legal/privacy.html`
 - Legacy video editor terms:
   `https://krishnasharmabsr.github.io/lumacraft-legal/terms.html`
-- ZenFlow legal home:
-  `https://krishnasharmabsr.github.io/lumacraft-legal/zenflow/`
-- ZenFlow privacy policy:
-  `https://krishnasharmabsr.github.io/lumacraft-legal/zenflow/privacy.html`
-- ZenFlow terms:
-  `https://krishnasharmabsr.github.io/lumacraft-legal/zenflow/terms.html`
+- LumaFocus legal home:
+  `https://krishnasharmabsr.github.io/lumacraft-legal/LumaFocus/`
+- LumaFocus privacy policy:
+  `https://krishnasharmabsr.github.io/lumacraft-legal/LumaFocus/privacy.html`
+- LumaFocus terms:
+  `https://krishnasharmabsr.github.io/lumacraft-legal/LumaFocus/terms.html`
 
 ## Notes
 
