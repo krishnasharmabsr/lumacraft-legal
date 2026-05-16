@@ -50,6 +50,18 @@
       {
         "source": "/LumaFocus/terms",
         "destination": "/LumaFocus/terms.html"
+      },
+      {
+        "source": "/LumaScan",
+        "destination": "/LumaScan/index.html"
+      },
+      {
+        "source": "/LumaScan/privacy",
+        "destination": "/LumaScan/privacy.html"
+      },
+      {
+        "source": "/LumaScan/terms",
+        "destination": "/LumaScan/terms.html"
       }
     ]
   }
