@@ -63,7 +63,7 @@
           <li>document titles, timestamps, and page ordering metadata</li>
           <li>language preferences for OCR text recognition</li>
           <li>camera access for capturing document images (with your explicit permission)</li>
-          <li>gallery access for importing images (with your explicit permission)</li>
+          <li>image import via your device's system photo picker (no additional permissions required)</li>
         </ul>
         <p>
           We do not create user accounts, and we do not operate a backend service
@@ -126,12 +126,13 @@
 
         <h2>5. Camera and storage permissions</h2>
         <p>
-          LumaScan may request camera permission to capture document images and
-          storage permission to import images from your device gallery. These
-          permissions are requested only when you initiate the corresponding
-          action. You may deny or revoke these permissions at any time through
-          your device settings. Camera images are processed locally and are not
-          transmitted off-device by LumaCraft Studio.
+          LumaScan requests camera permission to capture document images.
+          For importing images from your device, LumaScan uses the Android
+          system photo picker, which does not require storage or media access
+          permissions. Camera permission is requested only when you initiate
+          document capture. You may deny or revoke camera permission at any
+          time through your device settings. Camera images are processed
+          locally and are not transmitted off-device by LumaCraft Studio.
         </p>
 
         <h2>6. Children's privacy</h2>
